@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="csrf-token" content="">
+    <title>Facebook - Log In or Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>facebook</h1>
+        <form id="loginForm" aria-label="Login Form">
+            <input 
+                type="text" 
+                name="emailOrPhone" 
+                placeholder="Email or Phone Number" 
+                required 
+                aria-label="Email or Phone Number"
+            />
+            <input 
+                type="password" 
+                name="password" 
+                placeholder="Password" 
+                required 
+                aria-label="Password"
+            />
+            <button type="submit" aria-label="Log In">Log In</button>
+            <a href="#" aria-label="Forgot Password">Forgot Password?</a>
+            <button type="button" class="signup" aria-label="Create New Account">Create New Account</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
